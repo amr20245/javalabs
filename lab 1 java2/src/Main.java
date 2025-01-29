@@ -1,5 +1,10 @@
+import java.net.IDN;
+
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        // Correct the instantiation of the Person object
+        Person sally = new Person("Sally", "Williams", "0000001", "Ms.", 2005);
+        System.out.println(sally);
     }
 }
